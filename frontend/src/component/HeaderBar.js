@@ -191,7 +191,7 @@ export default function HeaderBar() {
                   <span className="menu-text">Features</span>
                   <i className="menu-arrow"></i>
                 </a>
-                <div className="menu-submenu menu-submenu-fixed menu-submenu-left" style={{"width":"1000px"}}>
+                <div className="menu-submenu menu-submenu-fixed menu-submenu-left" style={{width:"1000px"}}>
                   <div className="menu-subnav">
                     <ul className="menu-content">
                       <li className="menu-item">
@@ -640,7 +640,7 @@ export default function HeaderBar() {
                         </span>
                       </span>
                     </div>
-                    <input type="text" className="form-control" placeholder="Search..."></input>
+                    <input type="text" className="form-control" placeholder="Search..." />
                     <div className="input-group-append">
                       <span className="input-group-text">
                         <i className="quick-search-close ki ki-close icon-sm text-muted"></i>
@@ -648,7 +648,7 @@ export default function HeaderBar() {
                     </div>
                   </div>
                 </form>
-                <div className="quick-search-wrapper scroll ps" data-scroll="true" data-height="325" data-mobile-height="200" style={{"height": "325px", "overflow": "hidden"}}><div className="ps__rail-x" style={{"left": "0px", "bottom": "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{"left": "0px", "width": "0px;"}}></div></div><div className="ps__rail-y" style={{"top": "0px","right": "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{"top": "0px", "height": "0px"}}></div></div></div>
+                <div className="quick-search-wrapper scroll ps" data-scroll="true" data-height="325" data-mobile-height="200" style={{height: "325px", overflow: "hidden"}}><div className="ps__rail-x" style={{left: "0px", bottom: "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{left: "0px", width: "0px;"}}></div></div><div className="ps__rail-y" style={{top: "0px",right: "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{top: "0px", height: "0px"}}></div></div></div>
               </div>
             </div>
           </div>
@@ -669,7 +669,7 @@ export default function HeaderBar() {
             </div>
             <div className="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
               <form>
-                <div className="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/misc/bg-1.jpg)">
+                <div className="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" >
                   <h4 className="d-flex flex-center rounded-top">
                     <span className="text-white">User Notifications</span>
                     <span className="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">23 new</span>
@@ -688,7 +688,7 @@ export default function HeaderBar() {
                 </div>
                   `<div className="tab-content">
                     <div className="tab-pane active show p-8" id="topbar_notifications_notifications" role="tabpanel">
-                      <div className="scroll pr-7 mr-n7 ps" data-scroll="true" data-height="300" data-mobile-height="200" style={{"height": "300px", "overflow": "hidden"}}>
+                      <div className="scroll pr-7 mr-n7 ps" data-scroll="true" data-height="300" data-mobile-height="200" style={{height: "300px", overflow: "hidden"}}>
                         <div className="d-flex align-items-center mb-6">
                           <div className="symbol symbol-40 symbol-light-primary mr-5">
                             <span className="symbol-label">
@@ -825,13 +825,13 @@ export default function HeaderBar() {
                             <span className="text-muted">Web Design &amp; Development</span>
                           </div>
                         </div>
-                      <div className="ps__rail-x" style={{"left": "0px", "bottom": "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{"left": "0px", "width": "0px"}}></div></div><div className="ps__rail-y" style={{"top": "0px", "right": "0px"}}><div className="ps__thumb-y" tabIndex="0" style={{"top": "0px", "height": "0px;"}}></div></div></div>
+                      <div className="ps__rail-x" style={{left: "0px", bottom: "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{left: "0px", width: "0px"}}></div></div><div className="ps__rail-y" style={{top: "0px", right: "0px"}}><div className="ps__thumb-y" tabIndex="0" style={{top: "0px", height: "0px;"}}></div></div></div>
                       <div className="d-flex flex-center pt-7">
                         <a href="#" className="btn btn-light-primary font-weight-bold text-center">See All</a>
                       </div>
                     </div>
                     <div className="tab-pane" id="topbar_notifications_events" role="tabpanel">
-                      <div className="navi navi-hover scroll my-4 ps" data-scroll="true" data-height="300" data-mobile-height="200" style={{"height": "300px", "overflow": "hidden"}}>
+                      <div className="navi navi-hover scroll my-4 ps" data-scroll="true" data-height="300" data-mobile-height="200" style={{height: "300px", overflow: "hidden"}}>
                         <a href="#" className="navi-item">
                           <div className="navi-link">
                             <div className="navi-icon mr-2">
@@ -986,11 +986,11 @@ export default function HeaderBar() {
                             </div>
                           </div>
                         </a>
-                      <div className="ps__rail-x" style={{"left": "0px", "bottom": "0px;"}}><div className="ps__thumb-x" tabIndex="0" style={{"left": "0px", "width": "0px"}}></div></div><div className="ps__rail-y" style={{"top": "0px", "right": "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{"top": "0px", "height": "0px"}}></div></div></div>
+                      <div className="ps__rail-x" style={{left: "0px", bottom: "0px;"}}><div className="ps__thumb-x" tabIndex="0" style={{left: "0px", width: "0px"}}></div></div><div className="ps__rail-y" style={{top: "0px", right: "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{top: "0px", height: "0px"}}></div></div></div>
                     </div>
                     <div className="tab-pane" id="topbar_notifications_logs" role="tabpanel">
                       <div className="d-flex flex-center text-center text-muted min-h-200px">All caught up! 
-                      <br>No new notifications.</br>
+                      <p>No new notifications.</p>
                     </div>
                   </div>
                 </div>
@@ -1014,7 +1014,7 @@ export default function HeaderBar() {
               </div>
             </div>
             <div className="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-              <div className="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(/metronic/theme/html/demo1/dist/assets/media/misc/bg-1.jpg)">
+              <div className="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top">
                 <h4 className="text-white font-weight-bold">Quick Actions</h4>
                 <span className="btn btn-success btn-sm font-weight-bold font-size-sm mt-2">23 tasks pending</span>
               </div>
