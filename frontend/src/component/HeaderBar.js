@@ -648,7 +648,7 @@ export default function HeaderBar() {
                     </div>
                   </div>
                 </form>
-                <div className="quick-search-wrapper scroll ps" data-scroll="true" data-height="325" data-mobile-height="200" style={{height: "325px", overflow: "hidden"}}><div className="ps__rail-x" style={{left: "0px", bottom: "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{left: "0px", width: "0px;"}}></div></div><div className="ps__rail-y" style={{top: "0px",right: "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{top: "0px", height: "0px"}}></div></div></div>
+                <div className="quick-search-wrapper scroll ps" data-scroll="true" data-height="325" data-mobile-height="200" style={{height: "325px", overflow: "hidden"}}><div className="ps__rail-x" style={{left: "0px", bottom: "0px"}}><div className="ps__thumb-x" tabIndex="0" style={{left: "0px", width: "0px"}}></div></div><div className="ps__rail-y" style={{top: "0px",right: "0px;"}}><div className="ps__thumb-y" tabIndex="0" style={{top: "0px", height: "0px"}}></div></div></div>
               </div>
             </div>
           </div>
@@ -1124,7 +1124,7 @@ export default function HeaderBar() {
           <div className="dropdown">
             <div className="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
               <div className="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
-                <img className="h-20px w-20px rounded-sm" src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/226-united-states.svg" alt="" />
+                <img className="h-20px w-20px rounded-sm" src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/226-united-states.svg" alt="" />
               </div>
             </div>
             <div className="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-sm dropdown-menu-right">
@@ -1132,7 +1132,7 @@ export default function HeaderBar() {
                 <li className="navi-item">
                   <a href="#" className="navi-link">
                     <span className="symbol symbol-20 mr-3">
-                      <img src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/226-united-states.svg" alt="" />
+                      <img src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/226-united-states.svg" alt="" />
                     </span>
                     <span className="navi-text">English</span>
                   </a>
@@ -1140,7 +1140,7 @@ export default function HeaderBar() {
                 <li className="navi-item active">
                   <a href="#" className="navi-link">
                     <span className="symbol symbol-20 mr-3">
-                      <img src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/128-spain.svg" alt="" />
+                      <img src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/128-spain.svg" alt="" />
                     </span>
                     <span className="navi-text">Spanish</span>
                   </a>
@@ -1148,7 +1148,7 @@ export default function HeaderBar() {
                 <li className="navi-item">
                   <a href="#" className="navi-link">
                     <span className="symbol symbol-20 mr-3">
-                      <img src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/162-germany.svg" alt="" />
+                      <img src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/162-germany.svg" alt="" />
                     </span>
                     <span className="navi-text">German</span>
                   </a>
@@ -1156,7 +1156,7 @@ export default function HeaderBar() {
                 <li className="navi-item">
                   <a href="#" className="navi-link">
                     <span className="symbol symbol-20 mr-3">
-                      <img src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/063-japan.svg" alt="" />
+                      <img src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/063-japan.svg" alt="" />
                     </span>
                     <span className="navi-text">Japanese</span>
                   </a>
@@ -1164,7 +1164,7 @@ export default function HeaderBar() {
                 <li className="navi-item">
                   <a href="#" className="navi-link">
                     <span className="symbol symbol-20 mr-3">
-                      <img src="/metronic/theme/html/demo1/dist/assets/media/svg/flags/195-france.svg" alt="" />
+                      <img src="https://metronic-assets.s3-ap-southeast-1.amazonaws.com/media/svg/flags/195-france.svg" alt="" />
                     </span>
                     <span className="navi-text">French</span>
                   </a>
